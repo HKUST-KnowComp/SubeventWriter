@@ -5,11 +5,6 @@ This repository is the official implementation of
 
 The paper is accepted to the main conference of EMNLP 2022.
 
-<div align="center">
-    <img src="event_pred_intro.jpg" alt="Model"/>
-    <span>A Motivating Example</span>
-</div>
-
 ## Requirements
 Python version is 3.8.5
 
