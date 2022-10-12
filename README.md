@@ -32,11 +32,10 @@ pip install -r requirements.txt
 
 ## Datasets
 We extract a large dataset from WikiHow, containing 
-(process, sub-event sequence) pairs. 
-The data for training Seq2Seq LM is 
-[here](https://drive.google.com/drive/folders/1y7HLUZZucmc1lsgXN3m-6StKRi0an0D6?usp=sharing). 
-The data for training Coherence Controller is 
-[here](https://drive.google.com/drive/folders/1z2rEn59EDaU2oYpVm78DwAL1atqGhYgl?usp=sharing).
+(process, sub-event sequence) pairs. To get our WikiHow dataset, download and unzip the file
+`datasets.zip`.
+The data for training Seq2Seq LM is in `datasets/WikiHow_data_for_Seq2SeqLM`
+The data for training Coherence Controller is `datasets/WikiHow_data_for_coherence_controller`
 We also used SMILE 
 [download](https://www.coli.uni-saarland.de/projects/smile/data/rkp_xml.zip) 
 and DeScript [download](http://fedora.clarin-d.uni-saarland.de/sfb1102/index.html#descript) 
