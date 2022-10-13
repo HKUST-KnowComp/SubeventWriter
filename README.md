@@ -213,4 +213,4 @@ sh baseline/run_t5-11b.sh 2 /your/output/dir /your/data/dir
 
 
 ## Contributing
-If you find any typo or bugs, please open an issue.
+If you find any typo or bug, please open an issue.
