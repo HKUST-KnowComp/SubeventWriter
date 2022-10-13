@@ -5,6 +5,11 @@ This repository is the official implementation of
 
 The paper is accepted to the main conference of EMNLP 2022.
 
+<div align="center">
+    <img src="event_pred_method.jpg" alt="Model"/>
+    <span>An Overview of Our Method</span>
+</div>
+
 ## Requirements
 Python version is 3.8.5
 
