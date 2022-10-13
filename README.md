@@ -42,9 +42,9 @@ and DeScript [download](http://fedora.clarin-d.uni-saarland.de/sfb1102/index.htm
 as out-of-distribution datasets.
 We also provide two Python scripts to convert their `XML` files into `json` 
 with the format we use in WikiHow data.
-The using order is:
-- `OOD_dataset/convert_xml_to_json.py`: this file convert `XML` into `json` files.
-- `OOD_dataset/reformat_json.py`: merge all json files into one and reorganize to the format of WikiHow data
+The order of using them:
+- `OOD_dataset/convert_xml_to_json.py`: this file converts `XML` files in a dataset into `json` files.
+- `OOD_dataset/reformat_json.py`: merges all json files into one and reorganizes to the format of WikiHow data
 
 
 ## Training
