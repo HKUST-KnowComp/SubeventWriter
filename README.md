@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ## Datasets
 We extract a large dataset from WikiHow, containing 
-(process, sub-event sequence) pairs. To get our WikiHow dataset, download and unzip the file
+(process, sub-event sequence) pairs. To get our WikiHow dataset, unzip the file
 `datasets.zip`.
 The data for training Seq2Seq LM is in `datasets/WikiHow_data_for_Seq2SeqLM`
 The data for training Coherence Controller is `datasets/WikiHow_data_for_coherence_controller`
@@ -198,6 +198,7 @@ will be downloaded automatically by huggingface.
 All the two commands are included in `baseline/command.sh`.
 
 ### Zero-shot Large LM
+All the two following commands are included in `baseline/command.sh`.
 Zero-shot Large LM (GPT-J 6b). `4 4` are evaluation batch size and
 gpu number, respectively.
 ```
@@ -205,7 +206,7 @@ sh baseline/run_gpt-j.sh 4 4 /your/output/dir /your/data/dir
 ```
 Zero-shot Large LM (T5-11b). For T5-11b, we use DeepSpeed, which can
 detect gpu number automatically. Thus, you only need give evaluation
-batch size.
+batch size, which is `2` in our case.
 ```
 sh baseline/run_t5-11b.sh 2 /your/output/dir /your/data/dir
 ```
