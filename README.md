@@ -1,7 +1,7 @@
 # <em>SubeventWriter</em>: Iterative Sub-event Sequence Generation with Coherence Controller
 
 This repository is the official implementation of 
-[<em>SubeventWriter</em>: Iterative Sub-event Sequence Generation with Coherence Controller](https://arxiv.org/abs/#TODO). 
+[<em>SubeventWriter</em>: Iterative Sub-event Sequence Generation with Coherence Controller](https://arxiv.org/abs/2210.06694). 
 
 The paper is accepted to the main conference of EMNLP 2022.
 
@@ -9,6 +9,7 @@ The paper is accepted to the main conference of EMNLP 2022.
     <img src="event_pred_method.jpg" alt="Model"/>
     <span>An Overview of Our Method</span>
 </div>
+
 
 ## Requirements
 Python version is 3.8.5
@@ -152,15 +153,14 @@ to the arugment `--gen_path`.
 ```
 python process_eval.py --gen_path  /path/to/output/
 ```
-If you have multiple runs, like grid searching learning rates.
-Let's assume the folder structure is:
+If you have multiple runs, like grid searching learning rates with the following folder structure:
 ```
 /common_path/bart_base_1e-5
 /common_path/bart_base_5e-5
 /common_path/bart_base_1e-4
 ```
-The following command will find all runs in the folder `/common_path/`.
-Print their performance, compare them and point out the best one according to the 
+the following command will find all runs in the folder `/common_path/`.
+The command will print their performance, compare them and point out the best one according to the 
 sum of 
 all metrics.
 ```
