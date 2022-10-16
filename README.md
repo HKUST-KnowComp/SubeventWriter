@@ -115,10 +115,10 @@ We may also have multiple gpu number.
 The training batch size passed in arguments is not the total batch 
 size. The formula is:
 
-$$
-Total_batch_size = training_batch_size \times gpu_number \times
-gradient_accumulation_step
-$$
+```math
+\textit{Total\_batch\_size} = \textit{training\_batch\_size} \times \textit{gpu\_number} 
+\times \textit{gradient\_accumulation\_step}
+```
 
 __Whether your fine-tuned Seq2Seq LM can work?__
 
