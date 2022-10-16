@@ -116,7 +116,7 @@ The training batch size passed in arguments is not the total batch
 size. The formula is:
 
 $$
-\text{Total_batch size} = \text{training batch size} \times \text{gpu number} 
+\text{Total batch size} = \text{training batch size} \times \text{gpu number} 
 \times \text{gradient accumulation step}
 $$
 
