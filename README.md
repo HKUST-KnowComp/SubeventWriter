@@ -10,6 +10,26 @@ The paper is accepted to the main conference of EMNLP 2022.
     <span>An Overview of Our Method</span>
 </div>
 
+[//]: # (## Citation)
+
+[//]: # (Please cite our work if you make use of our code in your work:)
+
+[//]: # (@misc{wang2022subeventwriter,)
+
+[//]: # (      title={SubeventWriter: Iterative Sub-event Sequence Generation with Coherence Controller}, )
+
+[//]: # (      author={Wang, Zhaowei and Zhang, Hongming and Fang, Tianqing and Song, Yangqiu and Wong, Ginny Y. and See, Simon},)
+
+[//]: # (      year={2022},)
+
+[//]: # (      eprint={2210.06694},)
+
+[//]: # (      archivePrefix={arXiv},)
+
+[//]: # (      primaryClass={cs.CL})
+
+[//]: # (})
+
 
 ## Requirements
 Python version is 3.8.5
@@ -94,10 +114,10 @@ We use gradient accumulation to get a bigger training batch size.
 We may also have multiple gpu number.
 The training batch size passed in arguments is not the total batch 
 size. The formula is:
-```
-Total batch size = training batch size $\times$ gpu number $\times$
-gradient accumulation step
-```
+$$
+Total_batch_size = training_batch_size \times gpu_number \times
+gradient_accumulation_step
+$$
 
 __Whether your fine-tuned Seq2Seq LM can work?__
 
