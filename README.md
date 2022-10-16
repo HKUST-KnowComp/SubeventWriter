@@ -114,6 +114,7 @@ We use gradient accumulation to get a bigger training batch size.
 We may also have multiple gpu number.
 The training batch size passed in arguments is not the total batch 
 size. The formula is:
+
 $$
 Total_batch_size = training_batch_size \times gpu_number \times
 gradient_accumulation_step
